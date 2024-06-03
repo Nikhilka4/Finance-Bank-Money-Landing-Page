@@ -1,0 +1,461 @@
+@font-face {
+    font-family: 'clash-display-bold';
+    src: url(
+        clash-display/ClashDisplayBold.otf
+    ) format('opentype');
+}
+
+@font-face {
+    font-family: 'clash-display-regular';
+    src: url(
+        clash-display/ClashDisplayRegular.otf
+    ) format('opentype');
+}
+
+@font-face {
+    font-family: 'clash-display-semi-bold';
+    src: url(
+        clash-display/ClashDisplaySemiBold.otf
+    ) format('opentype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: clash-display-regular;
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+
+}
+
+.navMenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.navMenu .navLinks ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.navMenu .navLinks ul li{
+    font-weight: bolder;
+    padding: 0 20px;
+}
+
+.dowload{
+    background: #000;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.Hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text{
+    width: calc(60% - 240px);
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    gap: 20px;
+}
+
+.hero-text h1{
+    font-family: clash-display-bold;
+    font-size: 60px;
+}
+
+.hero-btns{
+    display: flex;
+}
+
+.get-started{
+    background: #000;
+    font-size: 18px;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-top: 10px; 
+} 
+
+.get-started img{
+    margin-left: 5px;
+}
+
+.watch-video{
+    outline: none;
+    border: none;
+    background: transparent;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.watch-video span{
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.hero-imgs{
+    position: relative;
+}
+
+.iphone-bottom{
+    top: 0;
+}
+
+.iphone-middle{
+    position: absolute;
+    top: 90px;
+    right: 0;
+}
+.iphone-top{
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    z-index: 10;
+}
+
+.hero-gradient1{
+    position: absolute;
+    top: -80px;
+    left: 0;
+    z-index: -100;
+}
+
+.hero-gradient2{
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    z-index: -100;
+}
+
+.hero-an-img{
+    position: relative;
+}
+
+.hero-star{
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+
+.Features{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.feature-star img{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+.Features h3{
+    color: #f55;
+}
+
+.Features h1{
+    font-family: clash-display-bold;
+    padding-bottom: 10px;
+}
+
+.features{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+    padding: 16px 0;
+}
+
+.features p{
+    font-family: clash-display-bold;
+}
+
+.features img{
+    width: 20px;
+    height: 20px;
+}
+
+.feature-description {
+    width: 600px;
+}
+
+.feature-description p{
+    line-height: 2;
+}
+
+.feature-gradient{
+    position: absolute;
+    z-index: -10;
+}
+
+.Advantages{
+    width: calc(100% - 240px);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+}
+
+.Advantages h3{
+    color: #f55;
+}
+
+.Advantages h1{
+    font-family: clash-display-bold;
+    padding-bottom: 10px;
+}
+
+.advantages{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 0;
+}
+
+.advantages p{
+    font-family: clash-display-semi-bold;
+    font-size: 20px;
+}
+
+.advantage-description {
+    width: 500px;
+}
+
+.advantage-on-hold{
+    position: absolute;
+    bottom: 320px;
+    right: 150px;
+    z-index: 10;
+}
+
+
+.advantage-star img{
+    position: absolute;
+    top: 100px;
+    right: 50px;
+}
+
+.advantage-gradient{
+    position: absolute;
+    bottom: 50px;
+    z-index: -10;
+}
+
+.advantage2{
+    left: 100px;
+}
+
+.advantage-card{
+    position: absolute;
+    top: 220px;
+    left: 260px;
+    z-index: 10;
+}
+
+.advantage-star1{
+    position: absolute;
+    top: 20px;
+    right: 50%;
+}
+
+.advantage-star2{
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+
+
+.Testimonial{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+}
+.testimonial-gradient {
+    position: absolute;
+    top: 290px;
+    left: 190px;
+    z-index: -10;
+}
+
+.testimonial-star{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+.testimonial{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 0;
+}
+
+.testimonial-description{
+    width: 400px;
+}
+
+.testimonial-description h3{
+    font-size: 24px;
+    font-family: clash-display-semi-bold;
+}
+
+.testimonial-img{
+    margin-top: 16px;
+}
+
+.testimonial-name{
+    margin-top: 10px;
+    font-family: clash-display-semi-bold;
+}
+
+.test-header{
+    text-align: center;
+}
+
+.FAQ{
+    width: calc(100% - 180px);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+}
+
+.line{
+    /* padding-top: 50px; */
+    display: flex;
+    gap: 20px;
+}
+
+.red{
+    background-color: #f55;
+    width: 500px;
+    border-radius: 14px;
+    padding: 18px;
+}
+
+.red h2{
+    color: white;
+    font-family: clash-display-semi-bold;
+}
+
+.red p{
+    color: white;
+}
+
+.white{
+    width: 500px;
+    padding: 18px;
+}
+
+.white h2{
+    font-family: clash-display-semi-bold;
+}
+
+.FAQ-header{
+    margin-left: 250px;
+    margin-bottom: 15px;
+    align-items: start;
+    text-align: left;
+    z-index: -10;
+}
+
+.FAQ-header h3{
+    font-size: 14px;
+    color: #f55;
+}
+
+.FAQ-header h1{
+    font-family: clash-display-bold;
+    width: 300px;
+}
+
+.FAQ-head{
+    position: relative;
+}
+
+.FAQ-star{
+    position: absolute;
+    top: 40px;
+    left: 50%;
+}
+
+.Download{
+    margin: 40px 200px; 
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    gap: 5px;
+}
+
+.footer{
+    width: calc(100% - 180px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+    row-gap: 8px;
+    column-gap: 65px;
+}
+
+.quick-links{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+
+.footer-rights{
+    border-top: 1px solid gray;
+    border-radius: 100%;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 16px;
+}
+
+input{
+    outline: none;
+    border: none;
+}
+
+.Subscribe{
+    background: #000;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
